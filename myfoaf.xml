@@ -1,0 +1,22 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Anushree Desai</foaf:name>
+<foaf:title>Ms</foaf:title>
+<foaf:givenname>Anushree</foaf:givenname>
+<foaf:family_name>Desai</foaf:family_name>
+<foaf:birthday>05-03</foaf:birthday>
+<foaf:status>happy</foaf:status>
+<foaf:mbox_sha1sum>edf6fe76db5f0c70fc0ad4c90caf2e47ad44811c</foaf:mbox_sha1sum>
+<foaf:phone rdf:resource="tel:4108003048"/>
+<foaf:schoolHomepage rdf:resource="https://en.wikipedia.org/wiki/St._Francis_of_Assisi_Convent_High_School"/></foaf:Person>
+</rdf:RDF>
